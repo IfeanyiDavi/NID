@@ -5,17 +5,25 @@
 .app_component{
     display: block;
     overflow-x: hidden;
-    background-color: rgba(69, 61, 77, 0.7);
 
 }
 .header_component{
-    position: sticky;
+    
+}
+.for_background_pix{
+    background-image:url("./public/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background1{
+    background-color: rgba(69, 61, 77, 0.7);
+
 }
 .section_component{
     margin: 10px 10px;
     display:flex;
     justify-content: space-around;
-    height: 100vh;
 }
 @media screen and (max-width:769px){
     .section_component{

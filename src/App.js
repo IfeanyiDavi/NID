@@ -14,6 +14,8 @@ function App() {
          })
     return (
         <div className="app_component">
+            <div className="for_background_pix">
+            <div className="background1"> 
             <div className="header_component">
                 <Header1/>
                 <Header2/>
@@ -21,6 +23,8 @@ function App() {
             <div className="section_component">
                 <Aside/>
                 <Aside2/>
+            </div>
+            </div>
             </div>
             <div className="services">
                 <Services/>
