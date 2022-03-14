@@ -1,0 +1,82 @@
+.aside_component{
+    border:rgb(63, 63, 228, 0.5) 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px white;
+    min-width:300px;
+    width: 400px;
+    color: white;
+    height: 300px;
+}
+.aside_component span:first-child{
+    margin:5px 5px;
+    padding: 2px 2px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(52, 52, 206);
+}
+.divider{
+    border: solid 2px rgb(63, 63, 228, 0.2) ;
+    width: 100%;
+    margin:4px 4px;
+}
+.aside_component form{
+    display: block;
+    margin: 2px 0;
+}
+.aside_component form div{
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.aside_component form div input{
+    margin-right: 10px;
+}
+.aside_component form textarea::placeholder{
+    font-size: .8em;
+}
+.aside_submit_button{
+    text-align: center;
+}
+.aside_submit_button button{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+.aside2_component{   
+    display: block;
+    text-align: center;
+    margin-top: 10em;
+}
+.aside2_component label{
+    font-weight: bolder;
+    font-size: 3em;
+    color:white;
+    flex-wrap: wrap;
+}
+.aside2_component div span:first-child{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.aside2_component div span button{
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+}
+.second_dot{
+    padding: 0px 10px;
+    background-color: green;
+    border-radius: 50%; 
+}
+@media screen and (max-width:769px){
+    .aside2_component{   
+        margin-top:4em;
+        margin-bottom: 2em;
+    }    
+}

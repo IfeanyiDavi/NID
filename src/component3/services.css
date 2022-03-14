@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.services_component{
+    background-color: rgb(236, 230, 230);
+    height: 50vh;
+    text-align: center;
+
+
+}
+.services_component2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+.web_design{
+    border: solid 1px black;
+    margin: 5px 5px;
+    width: 350px;
+    height: 100px;
+    box-shadow: 1px 1px  4px black;
+}
+.web_design > span{
+    font-weight: bold;
+}
+@media screen and (max-width:769px){
+    .services_component{
+        height: 80vh;
+       }
+}

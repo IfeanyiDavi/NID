@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header1_social_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+.list_content{
+    display: flex;
+}
+.header1_social_icon li{
+    list-style: none;
+    padding-right: 10px;
+    font-size: 0.9em;
+}
+.header1_social_icon li a{
+    color:white;
+}
+.header1_social_icon li a:hover{
+    color: greenyellow;
+    transition: 0.5s linear;
+}
+
+.header2_component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+}
+.header2_component li{
+    list-style: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    margin-left: 4%;
+}
+.header2_component li a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header2_component li a:hover{
+    border-bottom: green solid 3px;
+    color: wheat
+}
+
+.header2_divider_line{
+    display: none;
+}
+.mobile_responsive_component{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    visibility: hidden;
+    position: relative;
+}
+.menuItem{
+    font-size: 2em;
+    margin-right: 10px;
+    margin-top: 5px;
+    border:rgb(63, 63, 228) dotted 1px;
+    display: flex;
+    padding:4px 4px;
+    cursor: pointer;
+    color: white;
+}
+.menuBar_items{
+    all: unset;
+    position: absolute;
+    text-align: center;
+    top:48px;
+    background-color: rgb(59, 59, 88, 0.9);
+    width: 100%;
+}
+.menuBar_items li{
+    list-style: none;
+    padding: 5px;
+}
+.menuBar_items li:not(:last-child){
+    border-bottom: white 1px solid;
+}
+.menuBar_items li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menuBar_items li:hover{
+    background-color: rgb(201, 183, 183);
+}
+@media  only screen and (min-width : 768px){
+}
+@media screen and (max-width:769px){
+    .header1_social_icon{
+        display: none;
+    }
+    .header3_component{
+        display: none;
+    }   
+    .header2_component{
+        display: none;
+    }
+    .header2_divider_line{
+        display: flex;
+    }
+    .mobile_responsive_component{
+        visibility: visible;
+    }
+}

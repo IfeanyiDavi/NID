@@ -1,0 +1,24 @@
+.footer_component{
+    color: white;
+    background-color: rgb(49, 47, 47);
+    text-align: center;
+    
+}
+.footer_social_media_icon span{
+    font-weight: bold;
+}
+.footer_social_media_icon ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer_social_media_icon ul li{
+    margin-left: 10px;
+    list-style: none;
+}
+.footer_social_media_icon ul li a:hover{
+    color:greenyellow;
+}
+.header_items{
+    display: block;
+}

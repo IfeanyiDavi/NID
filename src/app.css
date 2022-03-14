@@ -1,0 +1,28 @@
+*{
+    margin :0;
+    padding: 0;
+}
+.app_component{
+    display: block;
+    overflow-x: hidden;
+    background-color: rgba(69, 61, 77, 0.7);
+
+}
+.header_component{
+    position: sticky;
+}
+.section_component{
+    margin: 10px 10px;
+    display:flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+@media screen and (max-width:769px){
+    .section_component{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
