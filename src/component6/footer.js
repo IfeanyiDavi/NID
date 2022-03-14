@@ -12,7 +12,7 @@ export default function Footer() {
                     {Object.values(data).map(data=>{
                         return(
                             <li><a href={data.link}>{data.icon}</a></li>
-                        )
+                        ) 
                     })}
                 </ul>
                     <div className="header_items">

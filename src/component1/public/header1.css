@@ -88,7 +88,7 @@
     font-weight: bold;
 }
 .menuBar_items li:hover{
-    background-color: rgb(201, 183, 183);
+    background-color: blue
 }
 @media  only screen and (min-width : 768px){
 }
